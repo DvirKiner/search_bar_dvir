@@ -1,0 +1,66 @@
+/* label {
+  width: 100%;
+}
+*/
+.dataTables_scroll {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+body {
+  background: #c4d3f6;
+}
+.dataTables_scrollHead {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.dataTables_scrollBody {
+  background: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+thead > tr {
+  background-color: #6c7ae0;
+}
+thead th {
+  color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  padding: 16px 10px 16px 40px;
+}
+.dataTables_scrollBody td {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #808080;
+  padding: 16px 10px 16px 40px;
+}
+.dataTables_scrollBody tr:nth-last-child(even) {
+  background-color: #f8f6ff;
+}
+.dataTables_scrollFoot {
+  display: none;
+}
+#searchFilter {
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-bottom: 10px;
+}
+#example_filter,
+#example_filter label {
+  width: 100%;
+}
+
+.box {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: aqua;
+}
+.box-marked {
+  border: 3px solid red;
+}
